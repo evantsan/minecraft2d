@@ -36,33 +36,37 @@ function my_keydown(e)
 {
     kp = e.keyCode;
     console.log(kp);
-    if (kp == "67") {
+    if (kp == "48") {
         blockupdate("cloud.jpg")
-    } else if(kp == "68")
+    } else if(kp == "53")
     {
         blockupdate("dark_green.png")
-    } else if(kp == "71")
+    } else if(kp == "51")
     {
         blockupdate("ground.png")
-    } else if(kp == "76")
+    } else if(kp == "56")
     {
         blockupdate("light_green.png")
-    } else if(kp == "82")
+    } else if(kp == "55")
     {
         blockupdate("roof.jpg")
-    } else if (kp == "84")
+    } else if (kp == "54")
     {
         blockupdate("trunk.jpg")
-    } else if(kp == "85")
+    } else if(kp == "49")
     {
         blockupdate("unique.png")
-    } else if (kp == "87")
+    } else if (kp == "52")
     {
         blockupdate("wall.jpg")
-    } else if (kp == "89")
+    } else if (kp == "50")
     {
         blockupdate("yellow_wall.png")
-    } else if (kp == "38")
+    }
+    else if (kp == "57")
+    { blockupdate("14027502-pack_m.jpg")
+    } 
+    else if (kp == "38")
     {
         up();
     } else if (kp == "39")
